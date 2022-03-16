@@ -1,0 +1,83 @@
+body{
+    background-image: url(../images/fire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    background-color: #e3800dCC;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: #bc0000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-family: mandou;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+button{
+    margin-left: 28%;
+    margin-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: #404040;
+    color: white;
+}
+#resultado{
+    text-align: center;
+    font-size: 20px;
+}
+@font-face {
+    font-family: mandou;
+    src: url(../fonte/bebas.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: #d5d3d3;
+}
+a:active{
+    color: #d5d3d3;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        margin: 0;
+        background-image: url(../images/fire.jpg);
+        background-size: calc(2000px);
+    }
+ }
+
+ @media screen and (max-width: 1100px){
+    body{
+        margin: 0;
+        background-image: url(../images/fire.jpg);
+        background-size: calc(2200px);
+    }
+ }
